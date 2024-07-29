@@ -5,6 +5,7 @@ local function merge(t)
 end
 
 merge(require('groov.groups.core'))
+merge(require('groov.groups.telescope'))
 merge(require('groov.groups.treesitter'))
 
 return groups
